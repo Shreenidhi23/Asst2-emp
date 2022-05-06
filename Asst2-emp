@@ -1,0 +1,16 @@
+e={1:[101,"Raghav","21-jan-2003","clerk",15000,"TPG"],2:[102,"Sanjay","15-oct-2002","clerk",17000,"Eluru"],3:[103,"Sam","21-may-2002","clerk",15000,"Tanuku"],4:[104,"Venky","12-may-2000","manager",25000,"Eluru"]}
+x=int(input("enter employee no:"))
+print("enter employee serial no:", e[x][0])
+print("enter employee name:", e[x][1])
+print("empdoj:", e[x][2])
+print("empdesig:", e[x][3])
+print("empsalary:", e[x][4])
+print("empcity:", e[x][5])
+o/p:
+enter employee no:3
+enter employee serial no: 103
+enter employee name: Raghav
+empdoj: 21-may-2002
+empdesig: clerk
+empsalary: 15000
+empcity: Tanuku
